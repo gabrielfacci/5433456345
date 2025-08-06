@@ -1,0 +1,330 @@
+/**
+ * Helpers
+ */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/**
+ * Banners
+ */
+
+.banner-1{
+    background-color: #EFD259;
+    /*min-height: 250px;*/
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .banner-1{
+        height: 100px;
+    }
+}
+.banner-1 .banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #252320;
+}
+.banner-1 p{
+    color: #775107;
+}
+.banner-1 .banner-img{
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .banner-1 .banner-img{
+        max-width: 200px;
+    }
+}
+.banner-1 h1{
+    font-weight: 500;
+}
+.banner-1 p{
+    font-size: 0.8rem;
+}
+
+/**
+ * Carousel
+ */
+.carousel{
+    position: relative;
+}
+.carousel .carousel-description{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.carousel .carousel-description p{
+    text-transform: uppercase;
+    color: #f3f3f3;
+    font-size: 0.8rem;
+}
+.carousel .carousel-description h2{
+    font-weight: bold;
+}
+.carousel .carousel-description h3{
+    font-size: 0.8rem;
+    color: #CCC;
+}
+.carousel .carousel-item img {
+    box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.4); /* Aqui você pode ajustar o deslocamento vertical e o desfoque */
+}
+.carousel .carousel-controls{
+    top: 10px;
+    right: 10px;
+}
+.carousel .carousel-inner .carousel-item img {
+    border-radius: 20px;
+}
+.carousel-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-shadow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    pointer-events: none;
+}
+
+:is(.dark .filament-versions-nav-widget) {
+    color: white !important;
+    border-color: #353333;
+}
+
+.show-in-dark{
+    display: none;
+}
+:is(.dark .show-in-dark) {
+    display: block;
+}
+
+.show-in-light {
+    display: block;
+}
+:is(.dark .show-in-light) {
+    display: none;
+}
+
+/* Estilo para o menu ativo */
+.fi-sidebar-item-active {
+    background-color: rgba(255, 152, 0, 0.1) !important; /* Fundo laranja suave */
+}
+
+/* Estilo para o texto do menu ativo */
+.fi-sidebar-item-active .fi-sidebar-item-label {
+    color: #ff9800 !important; /* Texto laranja */
+}
+
+/* Estilo para o ícone do menu ativo */
+.fi-sidebar-item-active .fi-sidebar-item-icon {
+    color: #ff9800 !important; /* Ícone laranja */
+}
+
+/* Estilo para o hover do menu ativo */
+.fi-sidebar-item-active:hover {
+    background-color: rgba(255, 152, 0, 0.15) !important; /* Fundo laranja um pouco mais escuro no hover */
+}
+
+/* Removendo a cor azul padrão do Filament */
+.text-primary-600 {
+    color: #ff9800 !important;
+}
+
+.dark .text-primary-400 {
+    color: #ff9800 !important;
+}
+
+/* Background do item ativo */
+.fi-active {
+    background-color: rgba(255, 152, 0, 0.1) !important;
+}
+
+/* Cor do texto do submenu ativo */
+.fi-sidebar-item-active .fi-sidebar-item-label {
+    color: #ff9800 !important;
+}
+
+/* Cor do ícone do submenu ativo */
+.fi-sidebar-item-active .fi-sidebar-item-icon {
+    color: #ff9800 !important;
+}
+
+/* Cor do indicador do submenu ativo */
+.fi-sidebar-item-active .fi-sidebar-item-grouped-border .rounded-full {
+    background-color: #ff9800 !important;
+}
+
+/* Estilos para elementos do chat */
+/* Links e textos interativos */
+.fi-link {
+    color: #ff9800 !important;
+}
+
+/* Botões primários */
+.fi-btn-primary {
+    background-color: #ff9800 !important;
+    border-color: #ff9800 !important;
+}
+
+.fi-btn-primary:hover {
+    background-color: #f57c00 !important;
+    border-color: #f57c00 !important;
+}
+
+/* Badges e indicadores */
+.fi-badge-primary {
+    background-color: rgba(255, 152, 0, 0.1) !important;
+    color: #ff9800 !important;
+}
+
+/* Inputs focados */
+.fi-input:focus, .fi-select:focus {
+    border-color: #ff9800 !important;
+    box-shadow: 0 0 0 1px #ff9800 !important;
+}
+
+/* Checkboxes e radio buttons */
+.fi-checkbox:checked, .fi-radio:checked {
+    background-color: #ff9800 !important;
+    border-color: #ff9800 !important;
+}
+
+/* Progress bars */
+.fi-progress-bar {
+    background-color: #ff9800 !important;
+}
+
+/* Tabs ativas */
+.fi-tabs-item-active {
+    color: #ff9800 !important;
+    border-color: #ff9800 !important;
+}
+
+/* Notificações e alertas */
+.fi-notification-success {
+    background-color: #ff9800 !important;
+}
+
+/* Links no modo escuro */
+.dark .fi-link {
+    color: #ffb74d !important;
+}
+
+/* Botões no modo escuro */
+.dark .fi-btn-primary {
+    background-color: #ff9800 !important;
+    border-color: #ff9800 !important;
+}
+
+.dark .fi-btn-primary:hover {
+    background-color: #f57c00 !important;
+    border-color: #f57c00 !important;
+}
+
+/* Elementos de formulário no modo escuro */
+.dark .fi-input:focus, .dark .fi-select:focus {
+    border-color: #ffb74d !important;
+    box-shadow: 0 0 0 1px #ffb74d !important;
+}
+
+/* Todos os elementos com a classe text-primary */
+.text-primary-50 { color: #fff3e0 !important; }
+.text-primary-100 { color: #ffe0b2 !important; }
+.text-primary-200 { color: #ffcc80 !important; }
+.text-primary-300 { color: #ffb74d !important; }
+.text-primary-400 { color: #ffa726 !important; }
+.text-primary-500 { color: #ff9800 !important; }
+.text-primary-600 { color: #fb8c00 !important; }
+.text-primary-700 { color: #f57c00 !important; }
+.text-primary-800 { color: #ef6c00 !important; }
+.text-primary-900 { color: #e65100 !important; }
+
+/* Backgrounds com a classe bg-primary */
+.bg-primary-50 { background-color: #fff3e0 !important; }
+.bg-primary-100 { background-color: #ffe0b2 !important; }
+.bg-primary-200 { background-color: #ffcc80 !important; }
+.bg-primary-300 { background-color: #ffb74d !important; }
+.bg-primary-400 { background-color: #ffa726 !important; }
+.bg-primary-500 { background-color: #ff9800 !important; }
+.bg-primary-600 { background-color: #fb8c00 !important; }
+.bg-primary-700 { background-color: #f57c00 !important; }
+.bg-primary-800 { background-color: #ef6c00 !important; }
+.bg-primary-900 { background-color: #e65100 !important; }
+
+/* Bordas com a classe border-primary */
+.border-primary-50 { border-color: #fff3e0 !important; }
+.border-primary-100 { border-color: #ffe0b2 !important; }
+.border-primary-200 { border-color: #ffcc80 !important; }
+.border-primary-300 { border-color: #ffb74d !important; }
+.border-primary-400 { border-color: #ffa726 !important; }
+.border-primary-500 { border-color: #ff9800 !important; }
+.border-primary-600 { border-color: #fb8c00 !important; }
+.border-primary-700 { border-color: #f57c00 !important; }
+.border-primary-800 { border-color: #ef6c00 !important; }
+.border-primary-900 { border-color: #e65100 !important; }
+
+/* Ring focus com a classe ring-primary */
+.ring-primary-50 { --tw-ring-color: #fff3e0 !important; }
+.ring-primary-100 { --tw-ring-color: #ffe0b2 !important; }
+.ring-primary-200 { --tw-ring-color: #ffcc80 !important; }
+.ring-primary-300 { --tw-ring-color: #ffb74d !important; }
+.ring-primary-400 { --tw-ring-color: #ffa726 !important; }
+.ring-primary-500 { --tw-ring-color: #ff9800 !important; }
+.ring-primary-600 { --tw-ring-color: #fb8c00 !important; }
+.ring-primary-700 { --tw-ring-color: #f57c00 !important; }
+.ring-primary-800 { --tw-ring-color: #ef6c00 !important; }
+.ring-primary-900 { --tw-ring-color: #e65100 !important; }
+
+/* Elementos ativos e hover */
+[type='checkbox']:checked, [type='radio']:checked {
+    background-color: #ff9800 !important;
+    border-color: #ff9800 !important;
+}
+
+[type='checkbox']:focus, [type='radio']:focus, [type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
+    border-color: #ff9800 !important;
+    --tw-ring-color: #ff9800 !important;
+}
+
+/* Links e botões interativos */
+.hover\:text-primary-600:hover { color: #fb8c00 !important; }
+.hover\:bg-primary-600:hover { background-color: #fb8c00 !important; }
+.hover\:border-primary-600:hover { border-color: #fb8c00 !important; }
+
+/* Modo escuro */
+.dark .dark\:text-primary-400 { color: #ffa726 !important; }
+.dark .dark\:bg-primary-400 { background-color: #ffa726 !important; }
+.dark .dark\:border-primary-400 { border-color: #ffa726 !important; }
+.dark .dark\:ring-primary-400 { --tw-ring-color: #ffa726 !important; }
+
+/* Elementos de navegação */
+.fi-pagination-item-active {
+    background-color: #ff9800 !important;
+    color: white !important;
+}
+
+/* Tooltips e popovers */
+.fi-tooltip {
+    background-color: #ff9800 !important;
+}
+
+/* Spinners e loaders */
+.fi-spinner {
+    color: #ff9800 !important;
+}

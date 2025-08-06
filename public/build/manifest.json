@@ -1,0 +1,147 @@
+{
+  "_init-7dd8fc5e.js": {
+    "file": "assets/init-7dd8fc5e.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "assets/images/cassino-small.png": {
+    "file": "assets/cassino-small-3b2680a4.png",
+    "src": "assets/images/cassino-small.png"
+  },
+  "assets/images/cassino.png": {
+    "file": "assets/cassino-527189c0.png",
+    "src": "assets/images/cassino.png"
+  },
+  "assets/images/sport-small.png": {
+    "file": "assets/sport-small-5e566ee2.png",
+    "src": "assets/images/sport-small.png"
+  },
+  "assets/images/sport.png": {
+    "file": "assets/sport-a0e04fbf.png",
+    "src": "assets/images/sport.png"
+  },
+  "lang/en.json": {
+    "file": "assets/en-689817bf.js",
+    "isDynamicEntry": true,
+    "src": "lang/en.json"
+  },
+  "lang/es.json": {
+    "file": "assets/es-716700b2.js",
+    "isDynamicEntry": true,
+    "src": "lang/es.json"
+  },
+  "lang/php_en.json": {
+    "file": "assets/php_en-3b824abd.js",
+    "isDynamicEntry": true,
+    "src": "lang/php_en.json"
+  },
+  "lang/php_es.json": {
+    "file": "assets/php_es-f7b21b4e.js",
+    "isDynamicEntry": true,
+    "src": "lang/php_es.json"
+  },
+  "lang/php_pt_BR.json": {
+    "file": "assets/php_pt_BR-e1fd2c5e.js",
+    "isDynamicEntry": true,
+    "src": "lang/php_pt_BR.json"
+  },
+  "lang/pt_BR.json": {
+    "file": "assets/pt_BR-326ddf30.js",
+    "isDynamicEntry": true,
+    "src": "lang/pt_BR.json"
+  },
+  "node_modules/pixi.js/lib/environment-browser/browserAll.mjs": {
+    "file": "assets/browserAll-0d11e8f1.js",
+    "imports": [
+      "resources/js/app.js",
+      "_init-7dd8fc5e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/pixi.js/lib/environment-browser/browserAll.mjs"
+  },
+  "node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs": {
+    "file": "assets/webworkerAll-b970664c.js",
+    "imports": [
+      "_init-7dd8fc5e.js",
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs"
+  },
+  "public/assets/images/guard.png": {
+    "file": "assets/guard-529214c9.png",
+    "src": "public/assets/images/guard.png"
+  },
+  "public/assets/images/no-results.png": {
+    "file": "assets/no-results-aafff382.png",
+    "src": "public/assets/images/no-results.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-4ed993c7.js",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/Pages/Profile/AccountPage.css": {
+    "file": "assets/AccountPage-ec6eada3.css",
+    "src": "resources/js/Pages/Profile/AccountPage.css"
+  },
+  "resources/js/Pages/Profile/AccountPage.vue": {
+    "css": [
+      "assets/AccountPage-ec6eada3.css"
+    ],
+    "file": "assets/AccountPage-4e2a0418.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/AccountPage.vue"
+  },
+  "resources/js/Pages/Profile/BetHistoryPage.css": {
+    "file": "assets/BetHistoryPage-33256da2.css",
+    "src": "resources/js/Pages/Profile/BetHistoryPage.css"
+  },
+  "resources/js/Pages/Profile/BetHistoryPage.vue": {
+    "css": [
+      "assets/BetHistoryPage-33256da2.css"
+    ],
+    "file": "assets/BetHistoryPage-53a84733.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/BetHistoryPage.vue"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-78515f5b.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/no-results-aafff382.png",
+      "assets/guard-529214c9.png",
+      "assets/cassino-527189c0.png",
+      "assets/cassino-small-3b2680a4.png",
+      "assets/sport-a0e04fbf.png",
+      "assets/sport-small-5e566ee2.png"
+    ],
+    "css": [
+      "assets/app-78515f5b.css"
+    ],
+    "dynamicImports": [
+      "node_modules/pixi.js/lib/environment-browser/browserAll.mjs",
+      "node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs",
+      "resources/js/Pages/Profile/AccountPage.vue",
+      "resources/js/Pages/Profile/BetHistoryPage.vue",
+      "lang/en.json",
+      "lang/es.json",
+      "lang/php_en.json",
+      "lang/php_es.json",
+      "lang/php_pt_BR.json",
+      "lang/pt_BR.json"
+    ],
+    "file": "assets/app-d4614e56.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

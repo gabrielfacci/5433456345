@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - CorujaBet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            padding: 20px;
+        }
+        .icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #ff6b35;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .retry-btn {
+            background-color: #ff6b35;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .retry-btn:hover {
+            background-color: #e55a2b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">📡</div>
+        <h1>Sem Conexão</h1>
+        <p>Parece que você está offline. Verifique sua conexão com a internet e tente novamente.</p>
+        <button class="retry-btn" onclick="window.location.reload()">Tentar Novamente</button>
+    </div>
+</body>
+</html> 
